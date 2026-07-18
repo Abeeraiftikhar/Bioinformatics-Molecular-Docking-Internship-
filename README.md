@@ -11,15 +11,25 @@ By the end of the internship, participants will have developed practical skills 
 ## Learning Objectives
 Participants will learn how to:
 •	Retrieve biological data from public databases 
+
 •	Analyze nucleotide and protein sequences 
+
 •	Perform BLAST searches 
+
 •	Conduct Multiple Sequence Alignment 
+
 •	Validate protein structures 
+
 •	Refine predicted protein models 
+
 •	Identify therapeutic targets 
+
 •	Prepare proteins and ligands 
+
 •	Perform molecular docking 
+
 •	Interpret docking results 
+
 •	Build a professional GitHub portfolio 
 •	Document scientific projects professionally 
 
