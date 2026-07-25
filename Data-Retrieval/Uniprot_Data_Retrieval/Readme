@@ -1,1 +1,43 @@
+# UniProt Data Retrieval
 
+This directory contains primary protein sequence entries, functional annotations, and structural cross-references retrieved from the **UniProt Knowledgebase (UniProtKB)**. These datasets serve as foundational inputs for sequence alignment, mutation analysis, domain architecture mapping, and protein feature extraction workflows.
+
+---
+
+## 📂 Directory Overview
+
+```text
+Uniprot_Data_Retrieval/
+├── P01308/   # Human Insulin (INS)
+├── P00519/   # Tyrosine-protein Kinase ABL1 (ABL1)
+├── P04637/   # Cellular Tumor Antigen p53 (TP53)
+├── P0DTC2/   # SARS-CoV-2 Spike Glycoprotein (S)
+└── P68871/   # Human Hemoglobin Subunit Beta (HBB)
+
+```
+
+---
+
+## 🧬 Included UniProt Entries
+
+| UniProt ID | Gene | Protein Name | Organism | Functional Category & Focus |
+| --- | --- | --- | --- | --- |
+| **`P01308`** | `INS` | Preproinsulin | *Homo sapiens* | **Hormone Processing:** Disulfide connectivity & cleavage site prediction |
+| **`P00519`** | `ABL1` | Tyrosine-protein Kinase ABL1 | *Homo sapiens* | **Kinase Signaling:** Active/inactive conformations & targeted drug design |
+| **`P04637`** | `TP53` | Cellular Tumor Antigen p53 | *Homo sapiens* | **Tumor Suppressor:** DNA-binding domain mapping & cancer mutation profiling |
+| **`P0DTC2`** | `S` | Spike Glycoprotein | *SARS-CoV-2* | **Viral Antigen:** Receptor-binding domain (RBD) & variant analysis |
+| **`P68871`** | `HBB` | Hemoglobin Subunit Beta | *Homo sapiens* | **Oxygen Transport:** Hemoglobinopathies & point mutation impacts |
+
+---
+
+## 🛠️ Usage & Purpose
+
+Each subfolder contains FASTA sequence files and metadata annotations retrieved from UniProtKB, suitable for downstream analysis using tools such as:
+
+* **Sequence Alignment & Search:** BLAST, Clustal Omega, MUSCLE
+* **Programmatic Parsing:** Biopython (`Bio.ExPASy`, `Bio.SwissProt`), UniProt REST API
+* **Domain & Site Annotation:** InterPro, Pfam, PROSITE
+
+```
+
+```
