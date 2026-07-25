@@ -1,1 +1,41 @@
+# PDB Data Retrieval
 
+This repository folder contains 3D biological macromolecular structures retrieved from the **Protein Data Bank (RCSB PDB)**. These datasets serve as foundational inputs for structural bioinformatics workflows, including molecular docking, binding site analysis, nucleic acid interactions, and macromolecular visualization.
+
+---
+
+## 📂 Folder Overview
+
+```text
+PDB_Data_Retrieval/
+├── 1BNA/   # Synthetic B-DNA Dodecamer
+├── 1HHO/   # Human Deoxyhemoglobin
+├── 1HSG/   # HIV-1 Protease with Indinavir
+├── 1TUP/   # p53 Core Domain with DNA
+└── 6VXX/   # SARS-CoV-2 Spike Glycoprotein
+
+```
+
+---
+
+## 🧬 Included PDB Structures
+
+| PDB ID | Biological Target / Molecule | Category / Description | Primary Application Focus |
+| --- | --- | --- | --- |
+| **`1BNA`** | Synthetic B-DNA Dodecamer | **Nucleic Acid:** Classic Dickerson B-DNA double helix solved at atomic resolution. | Helical geometry & DNA structure analysis |
+| **`1HHO`** | Human Deoxyhemoglobin | **Multimeric Protein:** Heterotetrameric ($\alpha_2\beta_2$) respiratory protein with four heme cofactors. | Quaternary structure & cofactor extraction |
+| **`1HSG`** | HIV-1 Protease with Indinavir | **Protein-Ligand Complex:** Homodimeric aspartyl protease bound to small-molecule inhibitor MK-639. | Molecular docking & active site mapping |
+| **`1TUP`** | p53 Core Domain with DNA | **Protein-DNA Complex:** Tumor suppressor core domain bound directly to DNA. | Protein-nucleic acid interface interactions |
+| **`6VXX`** | SARS-CoV-2 Spike Glycoprotein | **Viral Assembly (Cryo-EM):** Prefusion spike trimer in the closed conformation. | Large-scale Cryo-EM structural parsing |
+
+---
+
+## 🛠️ Usage & Purpose
+
+Each subfolder contains the corresponding `.pdb` file retrieved directly from RCSB PDB, ready for downstream processing using tools such as:
+
+* **Visualization:** PyMOL, ChimeraX, VMD
+* **Docking & Interaction Analysis:** AutoDock Vina, PLIP, Discovery Studio
+* **Computational Analysis:** Biopython (`Bio.PDB`), OpenMM, ProDy
+
+```
