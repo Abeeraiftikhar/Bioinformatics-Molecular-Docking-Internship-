@@ -1,0 +1,121 @@
+>Feature ref|YP_009724390.1|
+1	1273	Protein
+			product	surface glycoprotein
+13	304	Region
+			region	SARS-CoV-like_Spike_S1_NTD
+			note	N-terminal domain of the S1 subunit of the Spike (S) protein from Severe acute respiratory syndrome coronavirus and related betacoronaviruses in the B lineage
+			db_xref	CDD:394950
+38	38	Site
+41	44
+113	113
+115	115
+167	167
+198	200
+225	225
+228	228
+230	234
+281	283
+			site_type	other
+			note	trimer interface [polypeptide binding]
+			db_xref	CDD:394950
+319	541	Region
+			region	SARS-CoV-2_Spike_S1_RBD
+			note	receptor-binding domain of the S1 subunit of severe acute respiratory syndrome coronavirus 2 Spike (S) protein
+			db_xref	CDD:394827
+319	319	Site
+321	321
+357	357
+381	383
+386	386
+390	390
+394	394
+396	396
+413	413
+516	517
+521	521
+			site_type	other
+			note	trimer interface [polypeptide binding]
+			db_xref	CDD:394827
+369	370	Site
+372	372
+374	374
+376	378
+380	380
+382	382
+384	386
+389	390
+392	392
+428	430
+515	515
+517	517
+519	519
+			site_type	other
+			note	cryptic epitope [polypeptide binding]
+			db_xref	CDD:394827
+417	417	Site
+446	446
+449	449
+453	453
+455	456
+475	475
+486	487
+489	489
+493	493
+496	496
+498	498
+500	502
+505	505
+			site_type	other
+			note	receptor binding site [polypeptide binding]
+			db_xref	CDD:394827
+438	508	Site
+			site_type	other
+			note	receptor binding motif
+			db_xref	CDD:394827
+543	1208	Region
+			region	SARS-CoV-like_Spike_SD1-2_S1-S2_S2
+			note	SD-1 and SD-2 subdomains, the S1/S2 cleavage region, and the S2 fusion subunit of the spike (S) glycoprotein from SARS-CoV-2 (COVID-19) and related betacoronaviruses in the B lineage
+			db_xref	CDD:411965
+603	603	Site
+616	616
+657	657
+709	709
+717	717
+801	801
+1074	1074
+1098	1098
+1134	1134
+1158	1158
+1173	1173
+1194	1194
+			site_type	other
+			note	N-linked glycosylation sites [posttranslational modification]
+			db_xref	CDD:411965
+672	676	Site
+678	678
+683	688
+690	709
+			site_type	other
+			note	S1/S2 cleavage region
+			db_xref	CDD:411965
+788	806	Site
+			site_type	other
+			note	fusion peptide
+			db_xref	CDD:411965
+816	833	Site
+			site_type	other
+			note	internal fusion peptide
+			db_xref	CDD:411965
+918	983	Region
+			region	heptad repeat 1
+			note	heptad repeat 1 [structural motif]
+			db_xref	CDD:411965
+1162	1203	Region
+			region	heptad repeat 2
+			note	heptad repeat 2 [structural motif]
+			db_xref	CDD:411965
+1	1273	CDS
+			product	surface glycoprotein
+			protein_id	ref|YP_009724390.1|
+			note	structural protein; spike protein
+
