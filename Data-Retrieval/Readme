@@ -1,1 +1,46 @@
 
+# 📦 Biological Data Retrieval Module
+
+This directory serves as the master data retrieval hub for the **Bioinformatics & Molecular Docking** workflow. It consolidates offline biological datasets manually gathered from primary public databases (**NCBI**, **PDB**, and **UniProt**) to support sequence parsing, structural analysis, and docking prep pipelines.
+
+---
+
+## 📁 Directory Structure & Contents
+
+```text
+Data-Retrieval/
+├── NCBI_Data_Retrieval/       # Nucleotide (mRNA/genomes) and Protein sequence datasets
+├── PDB_Data_Retrieval/        # 3D structural coordinate files (.pdb) from RCSB PDB
+└── Uniprot_Data_Retrieval/    # Curated protein sequence & functional annotation records
+
+```
+
+## 🔬 Submodule Breakdown
+
+### 🧬 [NCBI_Data_Retrieval](https://www.google.com/search?q=./NCBI_Data_Retrieval/)
+
+Contains genomic, transcriptomic, and proteomic sequences manually fetched from the NCBI Entrez databases.
+
+* **`Nucleotide_Sequences/`**: Benchmark DNA and mRNA datasets (*HBB*, *BRCA1*, *GAPDH*, *E. coli*, SARS-CoV-2).
+* **`Protein_Sequence/`**: Translated amino acid sequences for functional parsing and primary structure analysis.
+
+### 🏛️ [PDB_Data_Retrieval](https://www.google.com/search?q=./PDB_Data_Retrieval/)
+
+Contains experimental 3D structural data (PDB format) retrieved from the RCSB Protein Data Bank.
+
+* Used for active site mapping, ligand interaction profiling, and preparing macromolecular targets for docking simulations.
+
+### 🌐 [Uniprot_Data_Retrieval](https://www.google.com/search?q=./Uniprot_Data_Retrieval/)
+
+Contains detailed functional annotations, domain mapping, and curated sequence features fetched from UniProtKB.
+
+* Provides high-confidence protein metadata, active site residue locations, and post-translational modification details.
+
+---
+
+## 🛠️ Module Workflow
+
+1. **Data Acquisition:** Fetch raw sequences and structural models from NCBI, PDB, and UniProt.
+2. **Offline Processing:** Parse local `.fasta`, `.gb`, `.pdb`, and text files without requiring continuous live API connections.
+3. **Pipeline Integration:** Feed clean, verified data into downstream python scripts for feature extraction, alignment, and virtual screening.
+
