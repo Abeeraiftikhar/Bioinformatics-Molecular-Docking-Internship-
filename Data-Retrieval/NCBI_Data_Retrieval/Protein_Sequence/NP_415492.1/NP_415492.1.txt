@@ -1,0 +1,15 @@
+>Feature ref|NP_415492.1|
+1	597	Protein
+			product	hydrogenase 1 large subunit
+			EC_number	1.12.5.1
+1	597	Region
+			region	PRK10170
+			note	Ni/Fe-hydrogenase large subunit
+			db_xref	CDD:182281
+1	597	CDS
+			product	hydrogenase 1 large subunit
+			EC_number	1.12.5.1
+			transl_table	11
+			protein_id	ref|NP_415492.1||gnl|REF_b0973|NP_415492
+			db_xref	UniProtKB/Swiss-Prot:P0ACD8
+
