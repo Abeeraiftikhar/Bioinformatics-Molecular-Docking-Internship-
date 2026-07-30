@@ -1,1 +1,46 @@
 
+# 🗂️ NCBI Data Retrieval Module
+
+This directory serves as the central hub for local NCBI datasets retrieved for sequence parsing, comparative genomics, and downstream molecular docking preparation within the internship repository.
+
+---
+
+## 📁 Directory Architecture
+
+```text
+NCBI_Data_Retrieval/
+├── Nucleotide_Sequences/   # Local nucleotide datasets (mRNA, viral & bacterial genomes)
+└── Protein_Sequence/       # Local amino acid datasets (enzymes, receptors, biomarkers)
+
+```
+
+## 🔬 Subdirectory Overview
+
+### 🧬 [Nucleotide_Sequences](https://www.google.com/search?q=./Nucleotide_Sequences/)
+
+Contains local FASTA and GenBank sequence files spanning human, mouse, viral, and bacterial genomes:
+
+* **`NM_000518.5`** — Human Hemoglobin Subunit Beta (*HBB*) mRNA
+* **`NC_045512.2`** — SARS-CoV-2 Wuhan-Hu-1 Complete Genome
+* **`NM_007294.4`** — Human BRCA1 DNA Repair Associated mRNA
+* **`NC_000913.3`** — *E. coli* K-12 MG1655 Complete Chromosome
+* **`M13241.1`** — Mouse GAPDH Gene Fragment
+
+### 🧪 [Protein_Sequence](https://www.google.com/search?q=./Protein_Sequence/)
+
+Contains local amino acid sequence files and structural targets for functional analysis and molecular docking workflows:
+
+* **`NP_000509.1`** — Human Hemoglobin Subunit Beta Protein
+* **`YP_009724390.1`** — SARS-CoV-2 Spike Glycoprotein
+* **`NP_007295.1`** — Human BRCA1 Tumor Suppressor Protein
+* **`NP_415492.1`** — *E. coli* K-12 DNA Polymerase I
+* **`NP_032110.1`** — Mouse GAPDH Metabolic Control Protein
+
+---
+
+## 🛠️ Module Objectives
+
+1. **Offline Sequence Processing:** Provide static benchmark data to parse headers, extract CDS region features, and calculate physicochemical properties without continuous API dependencies.
+2. **Genomic to Proteomic Translation:** Facilitate cross-referencing between DNA/mRNA sequences and their corresponding translated protein products.
+3. **Pipeline Input Preparation:** Supply validated datasets for gene expression scripts, sequence alignment, and target protein prep for docking studies.
+
