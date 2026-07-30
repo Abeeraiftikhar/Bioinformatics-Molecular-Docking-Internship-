@@ -1,0 +1,60 @@
+>Feature ref|NP_007295.1|COX3_10712
+1	263	Protein
+			product	cytochrome c oxidase subunit III
+5	259	Region
+			region	COX3
+			note	cytochrome c oxidase subunit III; Provisional
+			db_xref	CDD:214439
+58	58	Site
+61	62
+65	65
+68	70
+			site_type	other
+			note	Subunit III/VIIa interface [polypeptide binding]
+			db_xref	CDD:238834
+59	60	Site
+63	64
+67	67
+73	73
+84	85
+88	88
+216	216
+223	223
+235	236
+			site_type	other
+			note	Phospholipid binding site [chemical binding]
+			db_xref	CDD:238834
+76	76	Site
+79	80
+91	91
+94	94
+98	99
+105	105
+193	194
+197	197
+201	201
+			site_type	other
+			note	Subunit I/III interface [polypeptide binding]
+			db_xref	CDD:238834
+121	121	Site
+			site_type	other
+			note	Subunit III/VIb interface [polypeptide binding]
+			db_xref	CDD:238834
+129	131	Site
+148	148
+174	174
+184	186
+191	193
+			site_type	other
+			note	Subunit III/VIa interface
+			db_xref	CDD:238834
+160	160	Site
+			site_type	other
+			note	Subunit III/Vb interface [polypeptide binding]
+			db_xref	CDD:238834
+1	263	CDS
+			product	cytochrome c oxidase subunit III
+			transl_table	5
+			protein_id	ref|NP_007295.1|COX3_10712|gnl|NCBI_MITO|COX3_10712
+			db_xref	UniProtKB/Swiss-Prot:P14574
+
