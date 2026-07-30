@@ -1,0 +1,38 @@
+
+# 🧬 NCBI Protein Sequence Retrieval
+
+This directory contains manually retrieved NCBI Protein sequence datasets organized into subfolders for downstream computational analysis, amino acid sequence alignment, and molecular docking prep.
+
+---
+
+## 📂 Directory Structure
+
+```text
+Protein_Sequence/
+├── NP_000509.1/         # Human Hemoglobin Subunit Beta (HBB) protein data
+├── NP_007295.1/         # Human BRCA1 tumor suppressor protein data
+├── NP_032110.1/         # Mouse GAPDH metabolic enzyme protein data
+├── NP_415492.1/         # E. coli K-12 DNA Polymerase I protein data
+└── YP_009724390.1/      # SARS-CoV-2 Spike Glycoprotein data
+
+```
+## 🔬 Dataset Overview
+
+Each accession folder contains local protein sequence files (FASTA / GenPept formats) representing core model proteins across viral, bacterial, mouse, and human biology:
+
+| Accession Folder | Organism | Protein Name | Length | Biological Relevance |
+| --- | --- | --- | --- | --- |
+| **`NP_000509.1`** | *Homo sapiens* | Hemoglobin Subunit Beta (**HBB**) | 147 aa | Oxygen transport & point mutation analysis (e.g., Sickle Cell) |
+| **`NP_007295.1`** | *Homo sapiens* | BRCA1 DNA Repair Associated | 1,863 aa | Tumor suppressor protein & DNA repair mechanisms |
+| **`NP_032110.1`** | *Mus musculus* | Glyceraldehyde-3-phosphate dehydrogenase (**GAPDH**) | 333 aa | Housekeeping enzyme & metabolic control baseline |
+| **`NP_415492.1`** | *E. coli* K-12 | DNA Polymerase I (**PolA**) | 928 aa | Prokaryotic DNA replication & repair machinery |
+| **`YP_009724390.1`** | *SARS-CoV-2* | Spike Glycoprotein (**S**) | 1,273 aa | Host ACE2 receptor binding & molecular docking target |
+
+---
+
+## 🛠️ Applications & Usage
+
+* **Local Protein Parsing:** Facilitates offline reading of FASTA headers, amino acid sequences, and GenPept feature annotations without querying NCBI APIs.
+* **Structural & Computational Modeling:** Provides input sequences for secondary structure prediction, physicochemical profiling (e.g., via Biopython's `ProteinAnalysis`), homology modeling, and molecular docking preparation.
+
+```
