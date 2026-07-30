@@ -1,0 +1,110 @@
+>Feature ref|NP_032110.1|
+1	333	Protein
+			product	glyceraldehyde-3-phosphate dehydrogenase isoform 2
+			product	peptidyl-cysteine S-nitrosylase GAPDH
+			EC_number	1.2.1.12
+1	146	Region
+			region	Interaction with WARS1. /evidence=ECO:0000250|UniProtKB:P04406
+			note	propagated from UniProtKB/Swiss-Prot (P16858.2)
+<2	330	Region
+			region	PLN02272
+			note	glyceraldehyde-3-phosphate dehydrogenase
+			db_xref	CDD:177912
+3	3	Site
+			site_type	methylation
+			note	N6,N6-dimethyllysine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+40	40	Site
+			site_type	phosphorylation
+			note	Phosphotyrosine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+59	59	Site
+			site_type	acetylation
+			note	N6-acetyllysine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+64	64	Site
+			site_type	methylation
+			note	N6,N6-dimethyllysine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+73	73	Site
+			site_type	phosphorylation
+			note	Phosphothreonine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+120	120	Site
+			site_type	phosphorylation
+			note	Phosphoserine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+146	146	Site
+			site_type	phosphorylation
+			note	Phosphoserine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+149	149	Site
+			site_type	phosphorylation
+			note	Phosphoserine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+151	151	Site
+			site_type	phosphorylation
+			note	Phosphothreonine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+175	175	Site
+			site_type	phosphorylation
+			note	Phosphothreonine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+177	177	Site
+			site_type	other
+			note	Activates thiol group during catalysis. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+180	180	Site
+			site_type	phosphorylation
+			note	Phosphothreonine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+182	182	Site
+			site_type	phosphorylation
+			note	Phosphothreonine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+192	192	Site
+			site_type	methylation
+			note	N6,N6-dimethyllysine, alternate. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+192	192	Site
+			site_type	acetylation
+			note	N6-acetyllysine, alternate. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+209	209	Site
+			site_type	phosphorylation
+			note	Phosphothreonine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+213	213	Site
+			site_type	methylation
+			note	N6,N6-dimethyllysine, alternate. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+217	217	Site
+			site_type	acetylation
+			note	N6-acetyllysine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+225	225	Site
+			site_type	methylation
+			note	N6,N6-dimethyllysine, alternate. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+225	225	Site
+			site_type	acetylation
+			note	N6-acetyllysine, alternate. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+227	227	Site
+			site_type	phosphorylation
+			note	Phosphothreonine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+235	235	Site
+			site_type	phosphorylation
+			note	Phosphothreonine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+239	239	Site
+			site_type	phosphorylation
+			note	Phosphoserine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+243	248	Region
+			region	[IL]-x-C-x-x-[DE] motif. /evidence=ECO:0000250|UniProtKB:P04406
+			note	propagated from UniProtKB/Swiss-Prot (P16858.2)
+252	252	Site
+			site_type	acetylation
+			note	N6-acetyllysine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+258	258	Site
+			site_type	methylation
+			note	N6,N6-dimethyllysine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+261	261	Site
+			site_type	methylation
+			note	N6,N6-dimethyllysine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+310	310	Site
+			site_type	phosphorylation
+			note	Phosphoserine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+331	331	Site
+			site_type	phosphorylation
+			note	Phosphoserine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+332	332	Site
+			site_type	methylation
+			note	N6,N6-dimethyllysine. /evidence=ECO:0000250|UniProtKB:P04406; propagated from UniProtKB/Swiss-Prot (P16858.2)
+1	333	CDS
+			product	glyceraldehyde-3-phosphate dehydrogenase isoform 2
+			product	peptidyl-cysteine S-nitrosylase GAPDH
+			EC_number	1.2.1.12
+			protein_id	ref|NP_032110.1|
+			note	isoform 2 is encoded by transcript variant 2
+			db_xref	CCDS:CCDS51913.1
+
