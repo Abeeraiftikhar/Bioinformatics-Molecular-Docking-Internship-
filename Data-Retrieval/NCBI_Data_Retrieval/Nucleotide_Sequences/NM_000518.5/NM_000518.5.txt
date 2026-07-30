@@ -1,0 +1,32 @@
+>Feature ref|NM_000518.5|
+1	628	gene
+			gene	HBB
+			gene_syn	beta-globin
+			gene_syn	CD113t-C
+			gene_syn	ECYT6
+			gene_desc	hemoglobin subunit beta
+			db_xref	GeneID:3043
+			db_xref	HGNC:HGNC:4827
+			db_xref	MIM:141900
+1	142	exon
+			inference	alignment:Splign:2.1.0
+30	32	misc_feature
+			note	upstream in-frame stop codon
+51	494	CDS
+			product	hemoglobin subunit beta
+			product	beta globin chain
+			product	hemoglobin, beta
+			product	hemoglobin beta subunit
+			product	Hb Monza protein
+			protein_id	ref|NP_000509.1|
+			db_xref	CCDS:CCDS7753.1
+143	365	exon
+			inference	alignment:Splign:2.1.0
+366	628	exon
+			inference	alignment:Splign:2.1.0
+602	607	regulatory
+			note	hexamer: AATAAA
+			regulatory_class	polyA_signal_sequence
+628	628	polyA_site
+			note	major polyA site
+
