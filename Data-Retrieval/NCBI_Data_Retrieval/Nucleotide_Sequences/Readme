@@ -1,1 +1,37 @@
+# 🧬 NCBI Nucleotide Sequences Retrieval
+
+This directory contains manually retrieved NCBI Nucleotide sequence datasets organized into dedicated subfolders for downstream computational analysis and parsing.
+
+---
+
+## 📂 Directory Structure
+
+```text
+Nucleotide_Sequences/
+├── M13241.1/         # Mouse GAPDH gene fragment data
+├── NC_000913.3/      # E. coli K-12 MG1655 complete genome data
+├── NC_045512.2/      # SARS-CoV-2 Wuhan-Hu-1 complete genome data
+├── NM_000518.5/      # Human Hemoglobin Subunit Beta (HBB) mRNA data
+└── NM_007294.4/      # Human BRCA1 DNA repair associated mRNA data
+
+---
+
+## 🔬 Dataset Details
+
+Each accession folder contains manually downloaded sequence files (FASTA / GenBank formats) representing diverse biological targets:
+
+| Accession Folder | Organism | Gene / Target | Record Type | Sequence Size |
+| --- | --- | --- | --- | --- |
+| **`M13241.1`** | *Mus musculus* | GAPDH (Housekeeping control) | Gene Fragment | ~1,232 bp |
+| **`NC_000913.3`** | *Escherichia coli* K-12 | Complete Chromosome | Bacterial Genome | ~4.64 Mb |
+| **`NC_045512.2`** | *SARS-CoV-2* | Wuhan-Hu-1 Reference Genome | Viral Genome | ~29,903 bp |
+| **`NM_000518.5`** | *Homo sapiens* | Hemoglobin Subunit Beta (**HBB**) | Human mRNA | ~628 bp |
+| **`NM_007294.4`** | *Homo sapiens* | BRCA1 DNA Repair Associated (**BRCA1**) | Human mRNA | ~7,224 bp |
+
+---
+
+## 🛠️ Usage & Purpose
+
+* **Offline Parsing:** Allows local processing of FASTA/GenBank headers, sequence records, and feature tables without reliance on live NCBI Entrez API queries.
+* **Comparative Analysis:** Provides model datasets spanning viral, bacterial, mouse, and human genomic targets for sequence alignment, GC-content computation, and ORF prediction workflows.
 
