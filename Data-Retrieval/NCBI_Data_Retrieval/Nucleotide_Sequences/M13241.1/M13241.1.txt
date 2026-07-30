@@ -1,0 +1,18 @@
+>Feature gb|M13241.1|HUMNMYC
+121	6555	prim_transcript
+			note	N-myc mRNA and introns
+617	1508	intron
+			note	N-myc, intron A
+1650	2415	CDS
+5045	5649
+			prot_desc	N-myc
+			protein_id	gb|AAA36371.1|
+<1650	2415	exon
+			note	N-myc, (first expressed exon)
+			number	2
+2416	5044	intron
+			note	N-myc, intron B (no splice consensus); putative
+5045	>5649	exon
+			note	N-myc
+			number	3
+
