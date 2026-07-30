@@ -1,0 +1,2 @@
+NC_000913.3 (E. coli K-12 Complete Genome)
+The gold-standard reference genome for the model bacterium Escherichia coli. At over 4.6 million base pairs, it provides a robust test dataset for benchmarking script performance, calculating GC-content across a whole chromosome, and running Open Reading Frame (ORF) prediction algorithms.
