@@ -1,0 +1,4 @@
+
+1. Homo sapiens BRCA1 DNA repair associated (BRCA1), transcript variant 1, mRNA
+7,088 bp linear mRNA 
+NM_007294.4 GI:1732746264
