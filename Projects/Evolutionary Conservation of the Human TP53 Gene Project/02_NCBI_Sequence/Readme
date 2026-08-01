@@ -1,0 +1,3 @@
+# NCBI Protein Sequence
+
+The human TP53 protein sequence (RefSeq Accession: NP_000537.3) was retrieved from the NCBI Protein database and used as the reference (query) sequence for this project. This sequence served as the basis for identifying homologous TP53 proteins from mammalian species through BLASTp analysis and subsequent evolutionary and phylogenetic analyses.
