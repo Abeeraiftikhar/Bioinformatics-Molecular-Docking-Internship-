@@ -1,1 +1,23 @@
 
+Structure Refinement Problem Report — PDB 2ITO
+
+Protein: EGFR kinase domain, G719S mutant
+PDB ID: 2ITO
+Refinement Server: GalaxyRefine
+
+Problem Observed
+
+The submitted 2ITO PDB structure was rejected by GalaxyRefine with the following error:
+
+“There seems to be break in the protein chain. No break in the chain is allowed at the moment.”
+
+GalaxyRefine
+    ↓
+Chain break detected
+    ↓
+Refinement not accepted
+    ↓
+Investigate missing residues
+    ↓
+Use appropriate structure preparation/
+alternative refinement strategy
