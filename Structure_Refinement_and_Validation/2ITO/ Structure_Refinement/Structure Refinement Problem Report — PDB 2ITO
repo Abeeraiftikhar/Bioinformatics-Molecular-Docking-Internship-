@@ -1,0 +1,30 @@
+## Structure Refinement Problem Report — PDB 2ITO
+
+**Protein:** EGFR kinase domain, G719S mutant
+**PDB ID:** 2ITO
+**Refinement Server:** GalaxyRefine
+
+### Problem Observed
+
+The submitted **2ITO PDB structure** was rejected by GalaxyRefine with the following error:
+
+> *“There seems to be break in the protein chain. No break in the chain is allowed at the moment.”*
+
+### Cause
+
+The crystal structure contains **unresolved/missing residues within the protein chain**. These residues lack experimentally determined atomic coordinates, resulting in a discontinuity between two modeled regions of the chain.
+
+The discontinuity can also be observed in the structural visualization as a **dashed connection between modeled regions**.
+
+### Interpretation
+
+The chain break is associated with the experimental structure rather than an error introduced during file submission. Because GalaxyRefine currently requires a **continuous protein chain**, the server cannot process this structure directly.
+
+### Outcome
+
+The refinement attempt using GalaxyRefine was **unsuccessful** due to the chain discontinuity. The structure should therefore be either:
+
+* appropriately prepared/modelled to address the missing region before refinement, or
+* replaced with a suitable continuous-chain structure for a standard GalaxyRefine workflow.
+
+**Conclusion:** 2ITO is a useful example of a **low-resolution structure with an experimental chain discontinuity**, but it is not suitable as a straightforward GalaxyRefine input without additional structure preparation.
